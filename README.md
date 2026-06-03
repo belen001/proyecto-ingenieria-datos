@@ -1,6 +1,14 @@
 # proyecto-ingenieria-datos
 
-## Comprensión y calidad de datos
+## Requisitos
+- Python ≥ 3.14
+- pandas, numpy, openpyxl (se pueden instalar con pip)
+
+## Instalación
+```bash
+pip install pandas numpy openpyxl
+```
+## 1. Comprensión y calidad de datos
 
 Este proyecto incluye un análisis exploratorio de datos (EDA) centrado en la comprensión del dataset y la calidad de los datos. Se generan los siguientes artefactos:
 
