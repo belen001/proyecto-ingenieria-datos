@@ -19,4 +19,4 @@ Este proyecto incluye un análisis exploratorio de datos (EDA) centrado en la co
 - `outputs/reportes/reporte_calidad_datos.md`
 - `data/processed/dataset_limpio.csv`
 
-El notebook `notebooks/01_calidad_datos.ipynb` contiene los pasos reproducibles y está estructurado con títulos Markdown.
+El notebook `notebooks/01_calidad_datos.ipynb` contiene los pasos reproducibles.

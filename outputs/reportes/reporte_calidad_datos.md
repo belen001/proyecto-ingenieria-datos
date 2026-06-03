@@ -80,12 +80,37 @@ No se encontraron filas duplicadas.
 | seeks_career_counseling         | seeks_career_counseling         |
 | overall_career_readiness_score  | overall_career_readiness_score  |
 
-## Significado de Principales Variables
-- **student_id** (string): Unique identifier for each student
-- **age** (integer): Age of the student (18-28)
-- **gender** (categorical): Gender identity
-- **degree_type** (categorical): Enrolled degree program level
-- **stream** (categorical): Primary academic field of study
+## Significado de Variables
+- **student_id** (string): Identificador único de cada estudiante.
+- **age** (integer): Edad del estudiante (por ejemplo, 18-28).
+- **gender** (categorical): Género del estudiante.
+- **degree_type** (categorical): Tipo de titulación del programa (p.ej., licenciatura, maestría).
+- **stream** (categorical): Área académica o rama de estudio.
+- **year_of_study** (integer): Año actual de estudio dentro del programa.
+- **college_tier** (categorical): Clasificación del nivel del colegio/universidad.
+- **urban_or_rural** (categorical): Si la residencia del estudiante es urbana o rural.
+- **daily_ai_tool_usage_hrs** (float): Horas diarias promedio de uso de herramientas de IA.
+- **primary_ai_tools_used** (string): Principales herramientas de IA que usa el estudiante.
+- **uses_ai_for_assignments** (categorical): Si se usa IA para tareas académicas.
+- **ai_replaces_own_thinking_score** (integer): Puntaje que indica la percepción de sustitución de la IA al propio pensamiento.
+- **ai_dependency_score** (integer): Medida de dependencia de la IA.
+- **placement_anxiety_score** (integer): Nivel de ansiedad respecto a la inserción laboral.
+- **fear_of_job_loss_to_ai** (integer): Preocupación de que la IA reemplace empleos.
+- **career_clarity_score** (integer): Claridad de objetivos profesionales del estudiante.
+- **internship_experience** (integer): Número de pasantías completadas.
+- **weekly_job_application_count** (integer): Cantidad de aplicaciones laborales por semana.
+- **resume_confidence_score** (integer): Confianza en la calidad del currículum.
+- **interview_anxiety_score** (integer): Nivel de ansiedad en entrevistas.
+- **daily_study_hours** (float): Horas diarias promedio de estudio.
+- **self_learning_hours_per_week** (float): Horas semanales dedicadas al auto‑aprendizaje.
+- **skill_development_courses_taken** (integer): Número de cursos de desarrollo de habilidades realizados.
+- **social_media_hrs_per_day** (float): Horas diarias de uso de redes sociales.
+- **sleep_hours** (float): Horas promedio de sueño diario.
+- **stress_level** (integer): Nivel de estrés autoinformado.
+- **burnout_score** (integer): Puntaje que indica síntomas de agotamiento.
+- **motivation_score** (integer): Nivel de motivación autoinformado.
+- **seeks_career_counseling** (float): Frecuencia de búsqueda de consejería profesional.
+- **overall_career_readiness_score** (float): Puntaje compuesto de preparación profesional general.
 
 ## Variable objetivo detectada
 La variable objetivo es **overall_career_readiness_score** según el metadata.
