@@ -1,0 +1,23 @@
+Variable,Asimetría,Curtosis,Forma
+age,0.722779535242056,0.106705988487386,Sesgo derecho
+year_of_study,0.4696445903658955,-0.86795838273067,Aproximadamente simétrica
+daily_ai_tool_usage_hrs,0.6425303086102809,-0.04000865300767176,Sesgo derecho
+ai_replaces_own_thinking_score,-0.1675654660988928,-1.0030663253128695,Aproximadamente simétrica
+ai_dependency_score,0.17854378210020666,-0.5894928419192547,Aproximadamente simétrica
+placement_anxiety_score,-0.17920904713128025,-0.8759419613703283,Aproximadamente simétrica
+fear_of_job_loss_to_ai,-0.5159822932026632,-0.6358553742158466,Sesgo izquierdo
+career_clarity_score,0.20030560427190264,-0.5095584218034066,Aproximadamente simétrica
+internship_experience,0.18869610785714735,-0.5867929475434925,Aproximadamente simétrica
+weekly_job_application_count,0.3080973556756995,-0.33783578042509976,Aproximadamente simétrica
+resume_confidence_score,-0.20037369879559594,-0.9772856881930423,Aproximadamente simétrica
+interview_anxiety_score,-0.2439475082032358,-0.9132781593962314,Aproximadamente simétrica
+daily_study_hours,0.4137046234657753,-0.2856127392361705,Aproximadamente simétrica
+self_learning_hours_per_week,0.5601269269646227,-0.2674239408024084,Sesgo derecho
+skill_development_courses_taken,0.9821118883589353,0.8855616393924444,Sesgo derecho
+social_media_hrs_per_day,0.20405031318658115,-0.33579498545842545,Aproximadamente simétrica
+sleep_hours,0.004262426315110778,-0.09783788216363609,Aproximadamente simétrica
+stress_level,0.05257784317764657,-0.3072357419602758,Aproximadamente simétrica
+burnout_score,-0.03217722854636713,-0.446623110359063,Aproximadamente simétrica
+motivation_score,0.3030567616314414,-0.5169346452346897,Aproximadamente simétrica
+seeks_career_counseling,0.9192384716659114,-1.1552084545605594,Sesgo derecho
+overall_career_readiness_score,-0.019029771968063606,-0.2533894139942201,Aproximadamente simétrica
