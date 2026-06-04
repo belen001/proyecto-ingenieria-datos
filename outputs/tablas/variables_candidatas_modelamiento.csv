@@ -1,0 +1,13 @@
+variable,tipo,relacion_observada,direccion_observada,justificacion
+stress_level,numérica,0.577,positiva,Bienestar personal; hipótesis espera asociación positiva con burnout.
+motivation_score,numérica,-0.524,negativa,Bienestar/motivación; hipótesis espera asociación negativa con burnout.
+ai_dependency_score,numérica,0.351,positiva,Dependencia de IA; eje central de la problemática.
+placement_anxiety_score,numérica,0.37,positiva,Ansiedad profesional; eje central de la problemática.
+interview_anxiety_score,numérica,0.356,positiva,Ansiedad profesional específica ante entrevistas.
+daily_ai_tool_usage_hrs,numérica,0.225,positiva,Intensidad de uso de IA; relevante para hábitos académicos.
+sleep_hours,numérica,-0.167,negativa,Hábito de bienestar; posible relación protectora.
+overall_career_readiness_score,numérica,-0.17,negativa,Preparación profesional general; posible relación con ansiedad y burnout.
+uses_ai_for_assignments,categórica,1.64,diferencia entre grupos,Frecuencia de uso de IA en tareas académicas. Diferencia descriptiva entre medias de burnout = 1.64; revisar junto con count por categoría.
+primary_ai_tools_used,categórica,0.87,diferencia entre grupos,Herramienta principal de IA utilizada. Diferencia descriptiva entre medias de burnout = 0.87; revisar junto con count por categoría.
+stream,categórica,0.47,diferencia entre grupos,Área de estudio. Diferencia descriptiva entre medias de burnout = 0.47; revisar junto con count por categoría.
+college_tier,categórica,0.46,diferencia entre grupos,Contexto institucional. Diferencia descriptiva entre medias de burnout = 0.46; revisar junto con count por categoría.
