@@ -1,6 +1,7 @@
 variable,correlacion_spearman,correlacion_abs,direccion
 stress_level,0.5774173367346014,0.5774173367346014,positiva
 motivation_score,-0.5235417583168214,0.5235417583168214,negativa
+seeks_career_counseling,0.3862751615624279,0.3862751615624279,positiva
 placement_anxiety_score,0.3703859336207854,0.3703859336207854,positiva
 interview_anxiety_score,0.3556435219549834,0.3556435219549834,positiva
 fear_of_job_loss_to_ai,0.3550734172987749,0.3550734172987749,positiva
