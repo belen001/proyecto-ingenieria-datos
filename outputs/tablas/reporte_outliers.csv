@@ -1,0 +1,23 @@
+Variable,Límite inf.,Límite sup.,N outliers,% outliers
+age,17.0,25.0,451,4.06
+year_of_study,-2.0,6.0,0,0.0
+daily_ai_tool_usage_hrs,-2.075,6.925,88,0.79
+ai_replaces_own_thinking_score,-1.0,7.0,0,0.0
+ai_dependency_score,-3.0,13.0,0,0.0
+placement_anxiety_score,-2.0,14.0,0,0.0
+fear_of_job_loss_to_ai,0.0,8.0,0,0.0
+career_clarity_score,-0.5,11.5,0,0.0
+internship_experience,-0.5,3.5,583,5.24
+weekly_job_application_count,-7.5,28.5,40,0.36
+resume_confidence_score,-1.0,7.0,0,0.0
+interview_anxiety_score,-2.0,14.0,0,0.0
+daily_study_hours,-2.6,7.8,54,0.49
+self_learning_hours_per_week,-10.5,23.9,40,0.36
+skill_development_courses_taken,-2.0,6.0,237,2.13
+social_media_hrs_per_day,-1.65,7.55,52,0.47
+sleep_hours,4.2,9.8,52,0.47
+stress_level,1.0,9.0,33,0.3
+burnout_score,-0.5,11.5,0,0.0
+motivation_score,-1.5,10.5,0,0.0
+seeks_career_counseling,-1.5,2.5,0,0.0
+overall_career_readiness_score,1.575,10.415,23,0.21

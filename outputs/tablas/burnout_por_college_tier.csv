@@ -1,0 +1,4 @@
+college_tier,count,mean,median,std,min,max
+Tier 1,1656,5.3,5.0,2.05,1,10
+Tier 2,3915,5.62,6.0,2.06,1,10
+Tier 3,5548,5.76,6.0,2.06,1,10

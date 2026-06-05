@@ -1,0 +1,25 @@
+variable,tipo,categoria,count,mean,median
+gender,categórica,Female,4993,5.65,6.0
+gender,categórica,Male,5815,5.64,6.0
+gender,categórica,Non-binary,311,5.56,5.0
+degree_type,categórica,B.Sc/B.A/B.Com,3357,5.66,6.0
+degree_type,categórica,B.Tech/B.E.,4990,5.61,6.0
+degree_type,categórica,M.Tech/M.Sc,1703,5.71,6.0
+degree_type,categórica,MBA,1069,5.63,6.0
+year_of_study,categórica,1,3715,5.76,6.0
+year_of_study,categórica,2,3748,5.61,6.0
+year_of_study,categórica,3,2416,5.58,6.0
+year_of_study,categórica,4,1240,5.5,6.0
+urban_or_rural,categórica,Rural,3527,5.67,6.0
+urban_or_rural,categórica,Urban,7592,5.63,6.0
+age,numérica agrupada por valor,18,433,5.58,6.0
+age,numérica agrupada por valor,19,1261,5.62,6.0
+age,numérica agrupada por valor,20,2496,5.65,6.0
+age,numérica agrupada por valor,21,2592,5.66,6.0
+age,numérica agrupada por valor,22,1576,5.62,6.0
+age,numérica agrupada por valor,23,931,5.63,6.0
+age,numérica agrupada por valor,24,755,5.6,6.0
+age,numérica agrupada por valor,25,624,5.73,6.0
+age,numérica agrupada por valor,26,312,5.55,6.0
+age,numérica agrupada por valor,27,101,5.89,6.0
+age,numérica agrupada por valor,28,38,6.03,6.0

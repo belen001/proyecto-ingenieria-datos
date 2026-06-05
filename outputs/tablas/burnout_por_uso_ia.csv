@@ -1,0 +1,6 @@
+uses_ai_for_assignments,count,mean,median,std,min,max
+Never,1315,5.0,5.0,2.05,1,10
+Rarely,3945,5.28,5.0,2.04,1,10
+Sometimes,3400,5.82,6.0,2.0,1,10
+Frequently,1780,6.19,6.0,1.95,1,10
+Always,679,6.64,7.0,1.95,1,10

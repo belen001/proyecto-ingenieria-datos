@@ -1,0 +1,5 @@
+stream,count,mean,median,std,min,max
+Arts/Sciences,1436,5.45,5.0,2.09,1,10
+CS/IT,5445,5.87,6.0,2.04,1,10
+Commerce/Management,1844,5.4,5.0,2.07,1,10
+Engineering (Non-CS),2394,5.43,5.0,2.05,1,10
