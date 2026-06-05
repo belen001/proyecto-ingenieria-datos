@@ -60,13 +60,13 @@ EDA_Proyecto/
 │   └── processed/
 ├── notebooks/
 │   ├── 01_calidad_datos.ipynb
-│   ├── 02_analisis_univariado.ipynb      ← nuevo
+│   ├── 02_analisis_univariado.ipynb       
 │   ├── 03_analisis_bivariado.ipynb
 │   └── 04_integracion_resultados.ipynb
 ├── outputs/
-│   ├── graficos/                         ← nuevo
+│   ├── graficos/                         
 │   ├── reportes/
 │   └── tablas/
 └── utils/
-    └── eda_helpers.py                    ← extendido con funciones univariadas
+    └── eda_helpers.py                        
 ```
