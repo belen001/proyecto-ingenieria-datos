@@ -1,15 +1,24 @@
-variable,tipo,metrica_observada,valor_observado,direccion_observada,descripcion_metrica,justificacion
-stress_level,numérica,Spearman con burnout_score,0.577,positiva,Correlación monotónica; valores entre -1 y 1.,Bienestar personal; hipótesis espera asociación positiva con burnout.
-motivation_score,numérica,Spearman con burnout_score,-0.524,negativa,Correlación monotónica; valores entre -1 y 1.,Bienestar/motivación; hipótesis espera asociación negativa con burnout.
-ai_dependency_score,numérica,Spearman con burnout_score,0.351,positiva,Correlación monotónica; valores entre -1 y 1.,Dependencia de IA; eje central de la problemática.
-placement_anxiety_score,numérica,Spearman con burnout_score,0.37,positiva,Correlación monotónica; valores entre -1 y 1.,Ansiedad profesional; eje central de la problemática.
-interview_anxiety_score,numérica,Spearman con burnout_score,0.356,positiva,Correlación monotónica; valores entre -1 y 1.,Ansiedad profesional específica ante entrevistas.
-fear_of_job_loss_to_ai,numérica,Spearman con burnout_score,0.355,positiva,Correlación monotónica; valores entre -1 y 1.,Temor a pérdida laboral por IA; relevante para ansiedad profesional y aparece en el ranking de correlaciones.
-daily_ai_tool_usage_hrs,numérica,Spearman con burnout_score,0.225,positiva,Correlación monotónica; valores entre -1 y 1.,Intensidad de uso de IA; relevante para hábitos académicos.
-sleep_hours,numérica,Spearman con burnout_score,-0.167,negativa,Correlación monotónica; valores entre -1 y 1.,Hábito de bienestar; posible relación protectora.
-seeks_career_counseling,binaria,Spearman con burnout_score,0.386,positiva,Correlación monotónica; valores entre -1 y 1.,"Búsqueda de orientación profesional; asociación relevante, pero debe interpretarse con cautela porque puede ser respuesta al malestar."
-overall_career_readiness_score,numérica,Spearman con burnout_score,-0.17,negativa,Correlación monotónica; valores entre -1 y 1.,Preparación profesional general; posible relación con ansiedad y burnout.
-uses_ai_for_assignments,categórica,Diferencia entre medias de burnout,1.64,diferencia entre grupos,Media máxima de burnout menos media mínima entre categorías; no es una correlación.,Frecuencia de uso de IA en tareas académicas. Diferencia descriptiva entre medias de burnout = 1.64; revisar junto con count por categoría.
-primary_ai_tools_used,categórica,Diferencia entre medias de burnout,0.87,diferencia entre grupos,Media máxima de burnout menos media mínima entre categorías; no es una correlación.,Herramienta principal de IA utilizada. Diferencia descriptiva entre medias de burnout = 0.87; revisar junto con count por categoría.
-stream,categórica,Diferencia entre medias de burnout,0.47,diferencia entre grupos,Media máxima de burnout menos media mínima entre categorías; no es una correlación.,Área de estudio. Diferencia descriptiva entre medias de burnout = 0.47; revisar junto con count por categoría.
-college_tier,categórica,Diferencia entre medias de burnout,0.46,diferencia entre grupos,Media máxima de burnout menos media mínima entre categorías; no es una correlación.,Contexto institucional. Diferencia descriptiva entre medias de burnout = 0.46; revisar junto con count por categoría.
+variable,bloque,tipo_dato,metrica_observada,valor_observado,direccion_observada,justificacion
+stress_level,Subjetiva / autopercepción,numérica,Spearman,0.577,positiva,"Variable subjetiva fuertemente relacionada; útil como referencia, pero cercana conceptualmente al burnout."
+motivation_score,Subjetiva / autopercepción,numérica,Spearman,-0.524,negativa,Variable subjetiva con relación negativa; puede representar un factor asociado a menor burnout.
+placement_anxiety_score,Subjetiva / autopercepción,numérica,Spearman,0.37,positiva,Ansiedad profesional; relevante para la hipótesis principal.
+interview_anxiety_score,Subjetiva / autopercepción,numérica,Spearman,0.356,positiva,Ansiedad ante entrevistas; relevante para el componente de inserción laboral.
+fear_of_job_loss_to_ai,Subjetiva / autopercepción,numérica,Spearman,0.355,positiva,Miedo a perder empleo por IA; conecta ansiedad laboral y tecnología.
+ai_dependency_score,Subjetiva / autopercepción,numérica,Spearman,0.351,positiva,Dependencia de IA; eje central del dataset y de la problemática.
+daily_ai_tool_usage_hrs,Conductual / hábitos,numérica,Spearman,0.225,positiva,Hábito de uso de IA; variable menos directa que puede aportar al modelamiento.
+sleep_hours,Conductual / hábitos,numérica,Spearman,-0.167,negativa,Hábito de bienestar; posible relación protectora.
+social_media_hrs_per_day,Conductual / hábitos,numérica,Spearman,0.098,positiva,Hábito digital; relación débil pero útil para contexto conductual.
+daily_study_hours,Conductual / hábitos,numérica,Spearman,-0.112,negativa,Hábito académico; relación débil pero relevante para interpretar carga y organización.
+skill_development_courses_taken,Conductual / hábitos,numérica,Spearman,-0.111,negativa,Conducta de formación; puede relacionarse con preparación y menor burnout.
+weekly_job_application_count,Conductual / hábitos,numérica,Spearman,0.144,positiva,Conducta asociada a búsqueda laboral; puede capturar presión de inserción.
+internship_experience,Conductual / hábitos,numérica,Spearman,-0.151,negativa,Experiencia práctica; variable conductual/contextual con posible relación protectora.
+seeks_career_counseling,Conductual / hábitos,binaria codificada,Spearman,0.386,positiva,"Variable binaria de búsqueda de orientación; relación relevante, pero puede ser consecuencia del malestar."
+age,Contextual / demográfica,numérica,Spearman,0.006,positiva,"Variable contextual de control; relación observada baja, pero puede mantenerse como descriptor."
+uses_ai_for_assignments,Conductual / hábitos,categórica,Diferencia entre medias de grupos,1.64,diferencia entre grupos,Frecuencia de uso de IA en tareas académicas. Diferencia descriptiva entre medias de burnout = 1.64; revisar junto con count por categoría.
+primary_ai_tools_used,Contextual / demográfica,categórica,Diferencia entre medias de grupos,0.87,diferencia entre grupos,Herramienta principal de IA utilizada. Diferencia descriptiva entre medias de burnout = 0.87; revisar junto con count por categoría.
+stream,Contextual / demográfica,categórica,Diferencia entre medias de grupos,0.47,diferencia entre grupos,Área de estudio. Diferencia descriptiva entre medias de burnout = 0.47; revisar junto con count por categoría.
+college_tier,Contextual / demográfica,categórica,Diferencia entre medias de grupos,0.46,diferencia entre grupos,Tipo de institución. Diferencia descriptiva entre medias de burnout = 0.46; revisar junto con count por categoría.
+gender,Contextual / demográfica,categórica,Diferencia entre medias de grupos,0.09,diferencia entre grupos,"Género; diferencia descriptiva baja, útil como variable de control. Diferencia descriptiva entre medias de burnout = 0.09; revisar junto con count por categoría."
+degree_type,Contextual / demográfica,categórica,Diferencia entre medias de grupos,0.1,diferencia entre grupos,"Tipo de grado; diferencia descriptiva baja, útil como variable de control. Diferencia descriptiva entre medias de burnout = 0.10; revisar junto con count por categoría."
+year_of_study,Contextual / demográfica,categórica,Diferencia entre medias de grupos,0.26,diferencia entre grupos,Año de estudio; útil para interpretar etapa académica. Diferencia descriptiva entre medias de burnout = 0.26; revisar junto con count por categoría.
+urban_or_rural,Contextual / demográfica,categórica,Diferencia entre medias de grupos,0.04,diferencia entre grupos,"Zona; diferencia descriptiva baja, útil como variable de control. Diferencia descriptiva entre medias de burnout = 0.04; revisar junto con count por categoría."

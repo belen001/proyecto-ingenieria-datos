@@ -1,0 +1,4 @@
+gender,count,mean,median,std,min,max
+Female,4993,5.65,6.0,2.06,1,10
+Male,5815,5.64,6.0,2.07,1,10
+Non-binary,311,5.56,5.0,2.03,1,10
