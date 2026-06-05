@@ -1,0 +1,3 @@
+urban_or_rural,count,mean,median,std,min,max
+Rural,3527,5.67,6.0,2.05,1,10
+Urban,7592,5.63,6.0,2.07,1,10

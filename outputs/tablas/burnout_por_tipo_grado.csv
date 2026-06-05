@@ -1,0 +1,5 @@
+degree_type,count,mean,median,std,min,max
+B.Sc/B.A/B.Com,3357,5.66,6.0,2.06,1,10
+B.Tech/B.E.,4990,5.61,6.0,2.09,1,10
+M.Tech/M.Sc,1703,5.71,6.0,2.0,1,10
+MBA,1069,5.63,6.0,2.06,1,10

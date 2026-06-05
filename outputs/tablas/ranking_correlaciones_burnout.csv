@@ -1,19 +1,21 @@
-variable,correlacion_spearman,correlacion_abs,direccion
-stress_level,0.5774173367346014,0.5774173367346014,positiva
-motivation_score,-0.5235417583168214,0.5235417583168214,negativa
-seeks_career_counseling,0.3862751615624279,0.3862751615624279,positiva
-placement_anxiety_score,0.3703859336207854,0.3703859336207854,positiva
-interview_anxiety_score,0.3556435219549834,0.3556435219549834,positiva
-fear_of_job_loss_to_ai,0.3550734172987749,0.3550734172987749,positiva
-ai_dependency_score,0.35071888485719005,0.35071888485719005,positiva
-ai_replaces_own_thinking_score,0.24336236892450866,0.24336236892450866,positiva
-daily_ai_tool_usage_hrs,0.2246445598357368,0.2246445598357368,positiva
-career_clarity_score,-0.1779009773210555,0.1779009773210555,negativa
-overall_career_readiness_score,-0.17004172045390878,0.17004172045390878,negativa
-sleep_hours,-0.16743357994874034,0.16743357994874034,negativa
-resume_confidence_score,-0.16354910204228804,0.16354910204228804,negativa
-weekly_job_application_count,0.1442610995719325,0.1442610995719325,positiva
-daily_study_hours,-0.11186153891326772,0.11186153891326772,negativa
-skill_development_courses_taken,-0.11130140974857532,0.11130140974857532,negativa
-social_media_hrs_per_day,0.09797718390140106,0.09797718390140106,positiva
-self_learning_hours_per_week,0.017679621775178067,0.017679621775178067,positiva
+variable,correlacion_spearman,abs_correlacion,bloque
+stress_level,0.5774173367346014,0.5774173367346014,Subjetiva / autopercepción
+motivation_score,-0.5235417583168214,0.5235417583168214,Subjetiva / autopercepción
+seeks_career_counseling,0.3862751615624279,0.3862751615624279,Conductual / hábitos
+placement_anxiety_score,0.3703859336207854,0.3703859336207854,Subjetiva / autopercepción
+interview_anxiety_score,0.3556435219549834,0.3556435219549834,Subjetiva / autopercepción
+fear_of_job_loss_to_ai,0.3550734172987749,0.3550734172987749,Subjetiva / autopercepción
+ai_dependency_score,0.35071888485719005,0.35071888485719005,Subjetiva / autopercepción
+ai_replaces_own_thinking_score,0.24336236892450866,0.24336236892450866,Subjetiva / autopercepción
+daily_ai_tool_usage_hrs,0.2246445598357368,0.2246445598357368,Conductual / hábitos
+career_clarity_score,-0.1779009773210555,0.1779009773210555,Subjetiva / autopercepción
+overall_career_readiness_score,-0.17004172045390878,0.17004172045390878,Subjetiva / autopercepción
+sleep_hours,-0.16743357994874034,0.16743357994874034,Conductual / hábitos
+resume_confidence_score,-0.16354910204228804,0.16354910204228804,Subjetiva / autopercepción
+internship_experience,-0.15107887042042675,0.15107887042042675,Conductual / hábitos
+weekly_job_application_count,0.1442610995719325,0.1442610995719325,Conductual / hábitos
+daily_study_hours,-0.11186153891326772,0.11186153891326772,Conductual / hábitos
+skill_development_courses_taken,-0.11130140974857532,0.11130140974857532,Conductual / hábitos
+social_media_hrs_per_day,0.09797718390140106,0.09797718390140106,Conductual / hábitos
+self_learning_hours_per_week,0.017679621775178067,0.017679621775178067,Conductual / hábitos
+age,0.006209232901994479,0.006209232901994479,Contextual / demográfica
