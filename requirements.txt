@@ -6,3 +6,4 @@ openpyxl
 ipykernel
 nbformat
 nbconvert
+mlxtend
