@@ -1,0 +1,283 @@
+antecedente,consecuente,support,confidence,lift,n_antecedentes
+ai_dependency_score=alto + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.03345624606529364,0.9514066496163683,2.7707413664443163,3
+daily_ai_tool_usage_hrs=alto + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.03543484126270348,0.9227166276346604,2.6871886282529567,3
+ai_replaces_own_thinking_score=medio + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.03759330875078694,0.9126637554585152,2.6579120735838737,3
+motivation_score=bajo + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.04766615702850976,0.9106529209621993,2.6520560052851474,3
+daily_ai_tool_usage_hrs=alto + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.031657523158557424,0.9072164948453608,2.6420482467746376,3
+ai_replaces_own_thinking_score=medio + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.04460832808705819,0.8904847396768403,2.59332106350623,3
+ai_dependency_score=alto + ai_replaces_own_thinking_score=medio + stress_level=alto,burnout_cat=alto,0.03804298947747099,0.8867924528301886,2.582568172608399,3
+ai_dependency_score=alto + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.04020145696555446,0.8816568047337279,2.567611841758596,3
+ai_dependency_score=alto + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.04235992445363792,0.8803738317757009,2.5638754938486166,3
+ai_dependency_score=alto + stream=cs/it + stress_level=alto,burnout_cat=alto,0.035075096681356235,0.8803611738148983,2.563838630604467,3
+ai_dependency_score=alto + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.039661840093533594,0.8784860557768925,2.5583778036100755,3
+fear_of_job_loss_to_ai=alto + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.0679017897292922,0.877906976744186,2.556691376222788,3
+motivation_score=bajo + stream=cs/it + stress_level=alto,burnout_cat=alto,0.04379890277902689,0.8774774774774775,2.555440563664765,3
+ai_dependency_score=alto + fear_of_job_loss_to_ai=alto + stress_level=alto,burnout_cat=alto,0.04487813652306862,0.8739054290718039,2.545037838095701,3
+ai_dependency_score=alto + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.03102797014119975,0.8734177215189874,2.5436175080067107,3
+internship_experience=1 + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.03003867254249483,0.8720626631853786,2.5396712289047207,3
+ai_dependency_score=alto + stress_level=alto,burnout_cat=alto,0.048025901609857,0.8711256117455138,2.536942293608792,2
+ai_dependency_score=alto + daily_ai_tool_usage_hrs=alto + stress_level=alto,burnout_cat=alto,0.0364241388614084,0.8709677419354838,2.536482536034742,3
+motivation_score=bajo + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.05674970770752766,0.8667582417582418,2.52422338661862,3
+seeks_career_counseling=si + stream=cs/it + stress_level=alto,burnout_cat=alto,0.04173037143628024,0.8656716417910448,2.5210589274684723,3
+interview_anxiety_score=alto + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.06655274754924004,0.8654970760233919,2.5205505469628324,3
+college_tier=tier_3 + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.04325928590700603,0.8651079136690648,2.5194172058895576,3
+motivation_score=bajo + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.06808166201996582,0.8621867881548974,2.5109101355406764,3
+daily_study_hours=bajo + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.03372605450130407,0.860091743119266,2.504808824448171,3
+degree_type=b.tech/b.e. + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.03471535210000899,0.8596881959910913,2.503633591206114,3
+ai_dependency_score=alto + sleep_hours=medio + stress_level=alto,burnout_cat=alto,0.030668225559852505,0.8589420654911839,2.5014606668927377,3
+ai_replaces_own_thinking_score=medio + daily_ai_tool_usage_hrs=alto + stress_level=alto,burnout_cat=alto,0.03930209551218635,0.8568627450980393,2.495405150011812,3
+motivation_score=bajo + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.0661930029678928,0.8558139534883722,2.4923507985430096,3
+daily_study_hours=medio + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.04002158467488084,0.8557692307692308,2.4922205544586373,3
+motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.07770482957100458,0.8554455445544553,2.491277896778677,2
+degree_type=b.tech/b.e. + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.03336630991995683,0.8548387096774194,2.4895106372192837,3
+motivation_score=bajo + social_media_hrs_per_day=medio + stress_level=alto,burnout_cat=alto,0.03210720388524148,0.8520286396181385,2.4813269889769725,3
+fear_of_job_loss_to_ai=alto + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.06394459933447252,0.851497005988024,2.4797787348299734,3
+career_clarity_score=bajo + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.03201726773990467,0.8496420047732698,2.47437649320953,3
+motivation_score=bajo + sleep_hours=medio + stress_level=alto,burnout_cat=alto,0.05009443295260365,0.8490853658536585,2.472755417214989,3
+career_clarity_score=medio + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.03471535210000899,0.8483516483516482,2.4706186427506487,3
+ai_replaces_own_thinking_score=medio + stream=cs/it + stress_level=alto,burnout_cat=alto,0.04146056300026981,0.8474264705882354,2.4679242866607094,3
+career_clarity_score=medio + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.033905926791977695,0.847191011235955,2.4672385683427405,3
+resume_confidence_score=bajo + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.04901519920856192,0.8462732919254657,2.4645659331899563,3
+seeks_career_counseling=si + social_media_hrs_per_day=medio + stress_level=alto,burnout_cat=alto,0.03201726773990467,0.8456057007125891,2.462621735522074,3
+ai_replaces_own_thinking_score=medio + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.0521629642953503,0.8442503639010189,2.4586746454204897,3
+interview_anxiety_score=alto + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.0637647270437989,0.8430439952437575,2.455161388977302,3
+college_tier=tier_3 + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.043169349761669217,0.8391608391608393,2.4438526376713914,3
+seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.07365770303084809,0.8365679264555669,2.43630140761117,2
+placement_anxiety_score=alto + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.06349491860778847,0.8364928909952607,2.4360828850121274,3
+ai_replaces_own_thinking_score=medio + fear_of_job_loss_to_ai=alto + stress_level=alto,burnout_cat=alto,0.05585034625415955,0.8324396782841824,2.4242788849769052,3
+ai_replaces_own_thinking_score=medio + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.041910243726953865,0.8321428571428572,2.423414465314675,3
+seeks_career_counseling=si + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.06358485475312528,0.831764705882353,2.4223131913844638,3
+ai_replaces_own_thinking_score=medio + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.05153341127799262,0.8316400580551524,2.4219501847866,3
+ai_dependency_score=alto + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.05432143178343376,0.8308115543328748,2.4195373684199146,3
+ai_replaces_own_thinking_score=medio + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.053871751056749705,0.8296398891966759,2.4161251775740804,3
+seeks_career_counseling=si + sleep_hours=medio + stress_level=alto,burnout_cat=alto,0.04766615702850976,0.8294209702660407,2.415487629226848,3
+daily_study_hours=medio + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.04011152082021765,0.8289962825278812,2.4142508290800184,3
+career_clarity_score=bajo + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.03003867254249483,0.8267326732673268,2.40765861552106,3
+ai_dependency_score=medio + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.033006565338609586,0.8265765765765765,2.407204021727332,3
+ai_replaces_own_thinking_score=medio + college_tier=tier_3 + stress_level=alto,burnout_cat=alto,0.03417573522798813,0.826086956521739,2.4057781219395538,3
+ai_dependency_score=medio + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.03336630991995683,0.8244444444444443,2.4009947034514867,3
+ai_replaces_own_thinking_score=medio + stress_level=alto,burnout_cat=alto,0.0620559402823995,0.8243727598566309,2.400785939456752,2
+ai_replaces_own_thinking_score=medio + sleep_hours=medio + stress_level=alto,burnout_cat=alto,0.03993164852954403,0.8222222222222223,2.3945230196146907,3
+daily_ai_tool_usage_hrs=alto + stream=cs/it + stress_level=alto,burnout_cat=alto,0.04280960518032197,0.8221070811744388,2.394187699208639,3
+daily_study_hours=bajo + fear_of_job_loss_to_ai=alto + stress_level=alto,burnout_cat=alto,0.0364241388614084,0.8198380566801619,2.387579715093431,3
+daily_ai_tool_usage_hrs=alto + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.04496807266840543,0.8196721311475409,2.387096497179022,3
+daily_ai_tool_usage_hrs=medio + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.03318643762928321,0.8181818181818181,2.3827563217296057,3
+daily_ai_tool_usage_hrs=alto + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.03435560751866175,0.8179871520342612,2.382189403737284,3
+daily_ai_tool_usage_hrs=alto + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.045237881104415865,0.8165584415584415,2.378028630615063,3
+daily_ai_tool_usage_hrs=alto + fear_of_job_loss_to_ai=alto + stress_level=alto,burnout_cat=alto,0.04901519920856192,0.8146487294469357,2.372467056762828,3
+daily_ai_tool_usage_hrs=medio + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.031927331594567857,0.8142201834862385,2.3712190204776022,3
+ai_replaces_own_thinking_score=bajo + motivation_score=bajo + stress_level=alto,burnout_cat=alto,0.0330965014839464,0.8123620309050772,2.365807601265991,3
+daily_study_hours=bajo + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.03696375573342926,0.8122529644268774,2.365489971572145,3
+daily_ai_tool_usage_hrs=alto + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.04775609317384657,0.8119266055045872,2.364539530279074,3
+daily_ai_tool_usage_hrs=alto + sleep_hours=medio + stress_level=alto,burnout_cat=alto,0.03588452198938753,0.8076923076923076,2.3522081637587133,3
+daily_ai_tool_usage_hrs=alto + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.052972389603381596,0.8046448087431693,2.343333061397407,3
+daily_study_hours=bajo + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.03678388344275564,0.8003913894324852,2.3309460081455744,3
+daily_study_hours=bajo + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.03372605450130407,0.7995735607675906,2.328564280297234,3
+daily_study_hours=bajo + stress_level=alto,burnout_cat=alto,0.04101088227358576,0.798598949211909,2.325725960263807,2
+daily_ai_tool_usage_hrs=alto + stress_level=alto,burnout_cat=alto,0.055220793236801874,0.798439531859558,2.3252616958476753,2
+motivation_score=bajo + placement_anxiety_score=alto + uses_ai_for_assignments=frequently,burnout_cat=alto,0.031927331594567857,0.797752808988764,2.323261781861201,3
+college_tier=tier_3 + daily_ai_tool_usage_hrs=alto + stress_level=alto,burnout_cat=alto,0.030578289414515694,0.7962529274004685,2.318893740116765,3
+ai_replaces_own_thinking_score=medio + daily_study_hours=medio + stress_level=alto,burnout_cat=alto,0.030848097850526127,0.7958236658932716,2.317643619975717,3
+ai_dependency_score=alto + motivation_score=bajo + placement_anxiety_score=alto,burnout_cat=alto,0.06502383307851425,0.7945054945054945,2.3138047651667346,3
+daily_study_hours=bajo + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.03354618221063045,0.7936170212765957,2.311217302141034,3
+ai_dependency_score=alto + interview_anxiety_score=alto + motivation_score=bajo,burnout_cat=alto,0.06574332224120874,0.7860215053763441,2.2890972022733287,3
+fear_of_job_loss_to_ai=alto + internship_experience=1 + stress_level=alto,burnout_cat=alto,0.03786311718679737,0.7854477611940298,2.287426311345316,3
+placement_anxiety_score=alto + stress_level=alto + uses_ai_for_assignments=sometimes,burnout_cat=alto,0.03237701232125191,0.7826086956521738,2.2791582207848404,3
+interview_anxiety_score=alto + stress_level=alto + uses_ai_for_assignments=sometimes,burnout_cat=alto,0.032916629193272776,0.782051282051282,2.2775348887187543,3
+motivation_score=bajo + seeks_career_counseling=no + stress_level=alto,burnout_cat=alto,0.03003867254249483,0.780373831775701,2.272649721192776,3
+fear_of_job_loss_to_ai=alto + stress_level=alto + uses_ai_for_assignments=sometimes,burnout_cat=alto,0.034985160536019425,0.779559118236473,2.2702770653932274,3
+stress_level=alto + uses_ai_for_assignments=sometimes + weekly_job_application_count=alto,burnout_cat=alto,0.03588452198938753,0.779296875,2.2695133455015712,3
+interview_anxiety_score=alto + social_media_hrs_per_day=alto + stress_level=alto,burnout_cat=alto,0.03129777857721018,0.7785234899328859,2.2672610488642633,3
+resume_confidence_score=bajo + stream=cs/it + stress_level=alto,burnout_cat=alto,0.04334922205234284,0.77491961414791,2.256765633763911,3
+fear_of_job_loss_to_ai=alto + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.06772191743861858,0.7746913580246914,2.2561008931054327,3
+fear_of_job_loss_to_ai=alto + social_media_hrs_per_day=alto + stress_level=alto,burnout_cat=alto,0.03120784243187337,0.7745535714285714,2.2556996230262665,3
+internship_experience=1 + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.03795305333213418,0.7728937728937728,2.250865861918769,3
+ai_dependency_score=alto + placement_anxiety_score=alto + seeks_career_counseling=si,burnout_cat=alto,0.055220793236801874,0.7723270440251573,2.2492154013922794,3
+ai_replaces_own_thinking_score=bajo + seeks_career_counseling=si + stress_level=alto,burnout_cat=alto,0.036064394280061154,0.7696737044145873,2.2414881926102135,3
+placement_anxiety_score=alto + stream=cs/it + stress_level=alto,burnout_cat=alto,0.057559133015558955,0.7692307692307693,2.240198251198775,3
+career_clarity_score=bajo + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.03237701232125191,0.7692307692307692,2.2401982511987746,3
+fear_of_job_loss_to_ai=alto + stream=cs/it + stress_level=alto,burnout_cat=alto,0.06034715352100009,0.7677345537757436,2.2358408861792807,3
+career_clarity_score=bajo + fear_of_job_loss_to_ai=alto + stress_level=alto,burnout_cat=alto,0.03669394729741883,0.7669172932330827,2.2334608128493048,3
+interview_anxiety_score=alto + stream=cs/it + stress_level=alto,burnout_cat=alto,0.057379260724885334,0.7668269230769231,2.2331976316637787,3
+internship_experience=1 + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.03768324489612375,0.7659963436928702,2.230778770435051,3
+interview_anxiety_score=alto + motivation_score=bajo + uses_ai_for_assignments=frequently,burnout_cat=alto,0.03201726773990467,0.7655913978494623,2.229599463773748,3
+internship_experience=1 + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.03768324489612375,0.7645985401459854,2.2267080062554245,3
+motivation_score=bajo + seeks_career_counseling=si + stream=cs/it,burnout_cat=alto,0.06700242827592409,0.764102564102564,2.225263596190783,3
+ai_dependency_score=alto + career_clarity_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.031747459303894235,0.764069264069264,2.22516661791151,3
+internship_experience=1 + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.035165032826693046,0.763671875,2.224009318524096,3
+daily_ai_tool_usage_hrs=alto + motivation_score=bajo + placement_anxiety_score=alto,burnout_cat=alto,0.0653835776598615,0.7628541448058761,2.221627877448019,3
+interview_anxiety_score=alto + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.08984620919147406,0.7620137299771167,2.21918037286945,3
+motivation_score=bajo + placement_anxiety_score=alto + seeks_career_counseling=si,burnout_cat=alto,0.08696825254069611,0.7608182533438238,2.215698836807223,3
+ai_dependency_score=alto + interview_anxiety_score=alto + seeks_career_counseling=si,burnout_cat=alto,0.053781814911412894,0.7598475222363406,2.2128718176390443,3
+daily_study_hours=medio + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.047486284737836136,0.7597122302158273,2.212477812406963,3
+placement_anxiety_score=alto + social_media_hrs_per_day=alto + stress_level=alto,burnout_cat=alto,0.03012860868783164,0.7596371882086167,2.2122592707416473,3
+interview_anxiety_score=alto + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.0695206403453548,0.7593320235756384,2.211370552681384,3
+college_tier=tier_3 + stream=cs/it + stress_level=alto,burnout_cat=alto,0.039661840093533594,0.7590361445783134,2.2105088767852976,3
+stream=cs/it + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.06061696195701052,0.7590090090090089,2.210429851013926,3
+fear_of_job_loss_to_ai=alto + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.09623167551038762,0.7583274273564847,2.208444909580082,3
+internship_experience=1 + stress_level=alto,burnout_cat=alto,0.043978775069700514,0.7581395348837209,2.207897718274513,2
+career_clarity_score=bajo + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.04029139311089127,0.7580372250423013,2.2075997656483364,3
+ai_replaces_own_thinking_score=medio + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.0737476391761849,0.7578558225508317,2.2070714748409372,3
+fear_of_job_loss_to_ai=alto + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.09119525137152622,0.757847533632287,2.2070473353738604,3
+career_clarity_score=bajo + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.03651407500674521,0.7574626865671641,2.2059265615349126,3
+stress_level=alto + uses_ai_for_assignments=sometimes,burnout_cat=alto,0.039841712384207216,0.7572649572649574,2.205350722846794,2
+internship_experience=1 + sleep_hours=medio + stress_level=alto,burnout_cat=alto,0.03021854483316845,0.7567567567567567,2.203870711990146,3
+career_clarity_score=bajo + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.03804298947747099,0.7567084078711985,2.203729907574609,3
+social_media_hrs_per_day=alto + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.03120784243187337,0.75599128540305,2.201641462125855,3
+college_tier=tier_3 + fear_of_job_loss_to_ai=alto + stress_level=alto,burnout_cat=alto,0.059717600503642415,0.7554038680318543,2.199930751347875,3
+career_clarity_score=medio + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.047306412447162514,0.7546628407460545,2.197772688909214,3
+resume_confidence_score=bajo + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.06799172587462901,0.7544910179640718,2.1972722966847864,3
+ai_dependency_score=alto + seeks_career_counseling=si + stream=cs/it,burnout_cat=alto,0.051803219714003056,0.7529411764705882,2.192758758820448,3
+career_clarity_score=bajo + stress_level=alto,burnout_cat=alto,0.04164043529094343,0.7528455284552845,2.19248020714885,2
+internship_experience=1 + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.046317114848457595,0.7518248175182481,2.1895076338358828,3
+placement_anxiety_score=alto + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.06934076805468117,0.7514619883040935,2.18845098165354,3
+motivation_score=bajo + seeks_career_counseling=si + uses_ai_for_assignments=sometimes,burnout_cat=alto,0.03750337260545013,0.7513513513513513,2.188128778333074,3
+fear_of_job_loss_to_ai=alto + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.09119525137152622,0.7511111111111111,2.1874291368372036,3
+daily_ai_tool_usage_hrs=alto + interview_anxiety_score=alto + motivation_score=bajo,burnout_cat=alto,0.06763198129328177,0.7497507477567298,2.18346740814748,3
+fear_of_job_loss_to_ai=alto + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.09344365500494649,0.749098774333093,2.181568693506983,3
+degree_type=b.tech/b.e. + fear_of_job_loss_to_ai=alto + stress_level=alto,burnout_cat=alto,0.04649698713913122,0.7481910274963821,2.1789251007680126,3
+ai_dependency_score=alto + ai_replaces_own_thinking_score=medio + seeks_career_counseling=si,burnout_cat=alto,0.060886770393020956,0.7480662983425413,2.1785618573260126,3
+degree_type=b.tech/b.e. + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.03363611835596726,0.748,2.1783687794656887,3
+fear_of_job_loss_to_ai=alto + social_media_hrs_per_day=medio + stress_level=alto,burnout_cat=alto,0.047486284737836136,0.7478753541076487,2.178005778502605,3
+stream=cs/it + stress_level=alto,burnout_cat=alto,0.06970051263602842,0.7473481195756991,2.1764703356632262,2
+resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.07887399946038313,0.7463829787234043,2.1736595967589136,2
+career_clarity_score=medio + stream=cs/it + stress_level=alto,burnout_cat=alto,0.035165032826693046,0.7461832061068702,2.173077807412857,3
+social_media_hrs_per_day=alto + stress_level=alto,burnout_cat=alto,0.03669394729741883,0.7458866544789762,2.1722141726431996,2
+fear_of_job_loss_to_ai=alto + sleep_hours=bajo + stress_level=alto,burnout_cat=alto,0.03111790628653656,0.7456896551724137,2.1716404598905363,3
+ai_dependency_score=alto + resume_confidence_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.049554816080582785,0.7456021650879567,2.171385666216079,3
+career_clarity_score=medio + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.03579458584405072,0.745318352059925,2.170559129532296,3
+ai_dependency_score=alto + fear_of_job_loss_to_ai=alto + seeks_career_counseling=si,burnout_cat=alto,0.0661930029678928,0.7449392712550607,2.1694551485293396,3
+degree_type=b.sc/b.a/b.com + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.030668225559852505,0.7445414847161572,2.1682966916078974,3
+career_clarity_score=medio + fear_of_job_loss_to_ai=alto + stress_level=alto,burnout_cat=alto,0.052702581167371164,0.7427122940430926,2.162969616936916,3
+college_tier=tier_3 + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.046137242557783974,0.7424023154848046,2.1620668794854745,3
+ai_dependency_score=alto + degree_type=b.tech/b.e. + seeks_career_counseling=si,burnout_cat=alto,0.03201726773990467,0.7416666666666666,2.1599244805308184,3
+ai_dependency_score=alto + motivation_score=bajo + uses_ai_for_assignments=frequently,burnout_cat=alto,0.0356147135533771,0.7415730337078651,2.1596517972230886,3
+fear_of_job_loss_to_ai=alto + stress_level=alto,burnout_cat=alto,0.10630452378811044,0.7415307402760352,2.159528627849459,2
+daily_ai_tool_usage_hrs=alto + placement_anxiety_score=alto + seeks_career_counseling=si,burnout_cat=alto,0.056479899271517225,0.7414403778040143,2.159265469042125,3
+ai_dependency_score=alto + college_tier=tier_3 + motivation_score=bajo,burnout_cat=alto,0.05027430524327727,0.7413793103448276,2.1590876248622677,3
+sleep_hours=medio + stream=cs/it + stress_level=alto,burnout_cat=alto,0.04433851965104776,0.7413533834586467,2.1590121190876617,3
+ai_dependency_score=alto + daily_ai_tool_usage_hrs=alto + seeks_career_counseling=si,burnout_cat=alto,0.05369187876607608,0.7406947890818859,2.157094122525272,3
+degree_type=b.tech/b.e. + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.04568756183109992,0.7405247813411079,2.1565990161686166,3
+degree_type=b.sc/b.a/b.com + fear_of_job_loss_to_ai=alto + stress_level=alto,burnout_cat=alto,0.03255688461192553,0.7402862985685071,2.1559044928714592,3
+ai_dependency_score=alto + career_clarity_score=bajo + motivation_score=bajo,burnout_cat=alto,0.036064394280061154,0.7398523985239852,2.154640864114246,3
+ai_dependency_score=alto + daily_study_hours=bajo + seeks_career_counseling=si,burnout_cat=alto,0.03759330875078694,0.7398230088495575,2.154555273807813,3
+interview_anxiety_score=alto + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.09047576220883173,0.7397058823529412,2.154214171263057,3
+degree_type=b.tech/b.e. + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.05207302815001349,0.7394636015325671,2.1535085870719257,3
+ai_dependency_score=alto + seeks_career_counseling=si,burnout_cat=alto,0.0737476391761849,0.739404869251578,2.153337543532817,2
+resume_confidence_score=bajo + social_media_hrs_per_day=medio + stress_level=alto,burnout_cat=alto,0.034895224390682614,0.7390476190476191,2.152297138866023,3
+college_tier=tier_3 + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.06160625955571544,0.738942826321467,2.1519919554395996,3
+degree_type=b.tech/b.e. + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.04604730641244716,0.7388167388167388,2.1516247561297326,3
+fear_of_job_loss_to_ai=alto + motivation_score=bajo + uses_ai_for_assignments=frequently,burnout_cat=alto,0.03885241478550229,0.7384615384615384,2.150590321150824,3
+degree_type=b.sc/b.a/b.com + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.030668225559852505,0.738095238095238,2.1495235600788245,3
+interview_anxiety_score=alto + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.09299397427826243,0.7380442541042113,2.149375081557026,3
+ai_dependency_score=alto + seeks_career_counseling=si + weekly_job_application_count=alto,burnout_cat=alto,0.06277542944509398,0.7370644139387539,2.14652153446438,3
+college_tier=tier_3 + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.0670923644212609,0.7364264560710759,2.1446636367350167,3
+ai_dependency_score=medio + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.0356147135533771,0.7360594795539033,2.143594906537415,3
+ai_dependency_score=alto + internship_experience=1 + motivation_score=bajo,burnout_cat=alto,0.03660401115208202,0.7359855334538878,2.143379556436296,3
+placement_anxiety_score=alto + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.09065563449950535,0.7357664233576643,2.1427414513656022,3
+interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.10288695026531162,0.7356913183279743,2.142522726162584,2
+motivation_score=bajo + seeks_career_counseling=si + social_media_hrs_per_day=alto,burnout_cat=alto,0.04793596546452019,0.7351724137931035,2.1410115424215603,3
+placement_anxiety_score=alto + social_media_hrs_per_day=medio + stress_level=alto,burnout_cat=alto,0.046317114848457595,0.7346647646219686,2.1395331372005417,3
+fear_of_job_loss_to_ai=alto + sleep_hours=medio + stress_level=alto,burnout_cat=alto,0.06898102347333393,0.7332695984703632,2.135470053795696,3
+interview_anxiety_score=alto + social_media_hrs_per_day=medio + stress_level=alto,burnout_cat=alto,0.045237881104415865,0.7321688500727802,2.1322643907698384,3
+daily_ai_tool_usage_hrs=alto + interview_anxiety_score=alto + seeks_career_counseling=si,burnout_cat=alto,0.05701951614353809,0.7321016166281756,2.1320685896513054,3
+career_clarity_score=medio + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.049644752225919596,0.7320954907161804,2.132050749416765,3
+resume_confidence_score=bajo + sleep_hours=medio + stress_level=alto,burnout_cat=alto,0.051353538987319,0.732051282051282,2.131922002390834,3
+degree_type=b.sc/b.a/b.com + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.033905926791977695,0.7320388349514563,2.131885753228193,3
+fear_of_job_loss_to_ai=alto + internship_experience=2 + stress_level=alto,burnout_cat=alto,0.033905926791977695,0.7320388349514563,2.131885753228193,3
+placement_anxiety_score=alto + sleep_hours=bajo + stress_level=alto,burnout_cat=alto,0.03021854483316845,0.7320261437908496,2.1318487932976575,3
+social_media_hrs_per_day=medio + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.0488353269178883,0.7318059299191375,2.1312074737482685,3
+college_tier=tier_3 + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.06268549329975717,0.7313746065057712,2.129951348805047,3
+fear_of_job_loss_to_ai=alto + motivation_score=bajo + sleep_hours=bajo,burnout_cat=alto,0.0364241388614084,0.7310469314079422,2.1289970744695936,3
+ai_dependency_score=alto + fear_of_job_loss_to_ai=alto + motivation_score=bajo,burnout_cat=alto,0.08319093443655005,0.7306477093206951,2.1278344368613955,3
+placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.10315675870132206,0.7305732484076434,2.127617587492034,2
+sleep_hours=bajo + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.031927331594567857,0.7304526748971193,2.127266446354392,3
+ai_dependency_score=alto + seeks_career_counseling=si + sleep_hours=medio,burnout_cat=alto,0.04919507149923554,0.7303070761014686,2.126842425136781,3
+college_tier=tier_3 + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.060796834247684145,0.7300215982721382,2.126011040122552,3
+internship_experience=2 + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.0322870761759151,0.7296747967479674,2.1250010647042035,3
+internship_experience=2 + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.0314776508678838,0.7291666666666666,2.1235212589488386,3
+ai_dependency_score=alto + daily_study_hours=medio + seeks_career_counseling=si,burnout_cat=alto,0.03120784243187337,0.7289915966386554,2.123011409907074,3
+interview_anxiety_score=alto + motivation_score=bajo + sleep_hours=bajo,burnout_cat=alto,0.03237701232125191,0.728744939271255,2.12229308008305,3
+career_clarity_score=medio + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.052972389603381596,0.7280593325092707,2.12029641649308,3
+ai_dependency_score=alto + motivation_score=bajo + social_media_hrs_per_day=alto,burnout_cat=alto,0.03750337260545013,0.7277486910994764,2.119391748647218,3
+interview_anxiety_score=alto + sleep_hours=medio + stress_level=alto,burnout_cat=alto,0.06700242827592409,0.7275390625,2.118781256138685,3
+daily_study_hours=medio + stream=cs/it + stress_level=alto,burnout_cat=alto,0.03903228707617591,0.7269681742043551,2.1171186822886914,3
+ai_dependency_score=medio + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.04694666786581527,0.7260083449235049,2.1143234120493584,3
+college_tier=tier_3 + social_media_hrs_per_day=medio + stress_level=alto,burnout_cat=alto,0.031657523158557424,0.7257731958762886,2.11363859741971,3
+internship_experience=2 + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.033995862937314505,0.7255278310940498,2.1129240319368097,3
+sleep_hours=medio + social_media_hrs_per_day=medio + stress_level=alto,burnout_cat=alto,0.03849267020415505,0.7254237288135593,2.112620859266099,3
+ai_dependency_score=alto + college_tier=tier_3 + seeks_career_counseling=si,burnout_cat=alto,0.0405612015469017,0.72508038585209,2.1116209560737005,3
+ai_dependency_score=alto + career_clarity_score=medio + seeks_career_counseling=si,burnout_cat=alto,0.03201726773990467,0.725050916496945,2.1115351337164827,3
+motivation_score=bajo + seeks_career_counseling=si + weekly_job_application_count=alto,burnout_cat=alto,0.1018077165212699,0.7247119078104993,2.110547853050011,3
+daily_study_hours=medio + fear_of_job_loss_to_ai=alto + stress_level=alto,burnout_cat=alto,0.05719938843421171,0.7243735763097949,2.1095625445229462,3
+motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.11862577569925353,0.7243272926963207,2.109427754711993,2
+placement_anxiety_score=alto + sleep_hours=medio + stress_level=alto,burnout_cat=alto,0.0670923644212609,0.7242718446601941,2.109266275740361,3
+ai_replaces_own_thinking_score=medio + placement_anxiety_score=alto + seeks_career_counseling=si,burnout_cat=alto,0.07086968252540696,0.7235996326905417,2.1073086212378556,3
+college_tier=tier_2 + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.0330965014839464,0.7229862475442043,2.1055222856060785,3
+social_media_hrs_per_day=medio + stress_level=alto,burnout_cat=alto,0.05585034625415955,0.7229336437718278,2.1053690898635287,2
+degree_type=b.sc/b.a/b.com + stress_level=alto,burnout_cat=alto,0.03858260634949186,0.7222222222222222,2.10329724695885,2
+career_clarity_score=medio + college_tier=tier_3 + stress_level=alto,burnout_cat=alto,0.034895224390682614,0.7211895910780669,2.1002899589305986,3
+stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.1084629912761939,0.7208607292289301,2.0993322284694798,2
+daily_ai_tool_usage_hrs=medio + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.03453547980933537,0.7204502814258912,2.0981368986837308,3
+college_tier=tier_2 + fear_of_job_loss_to_ai=alto + stress_level=alto,burnout_cat=alto,0.03660401115208202,0.720353982300885,2.0978564508128708,3
+career_clarity_score=medio + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.052792517312707975,0.7202453987730062,2.0975402275948287,3
+college_tier=tier_3 + stress_level=alto,burnout_cat=alto,0.07077974638007015,0.7193784277879341,2.0950153846448507,2
+daily_study_hours=medio + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.05674970770752766,0.7186788154897494,2.092977933323867,3
+college_tier=tier_3 + degree_type=b.tech/b.e. + stress_level=alto,burnout_cat=alto,0.030758161705189316,0.7184873949579832,2.0924204674012086,3
+college_tier=tier_2 + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.03156758701322061,0.7177914110429447,2.0903935828670774,3
+ai_dependency_score=alto + motivation_score=bajo + weekly_job_application_count=alto,burnout_cat=alto,0.08049285007644573,0.7177225340817963,2.090192995404791,3
+college_tier=tier_3 + sleep_hours=medio + stress_level=alto,burnout_cat=alto,0.04775609317384657,0.7175675675675676,2.0897416929763706,3
+motivation_score=bajo + placement_anxiety_score=alto + sleep_hours=bajo,burnout_cat=alto,0.03012860868783164,0.7173447537473233,2.0890928017067805,3
+ai_dependency_score=alto + placement_anxiety_score=alto + social_media_hrs_per_day=alto,burnout_cat=alto,0.030848097850526127,0.7160751565762004,2.085395407535561,3
+motivation_score=bajo + resume_confidence_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.08912672002877957,0.7160404624277457,2.085294369233657,3
+ai_dependency_score=alto + motivation_score=bajo + resume_confidence_score=bajo,burnout_cat=alto,0.0670923644212609,0.7159309021113244,2.084975301355635,3
+daily_study_hours=medio + resume_confidence_score=bajo + stress_level=alto,burnout_cat=alto,0.04020145696555446,0.7152000000000001,2.0828467260345733,3
+sleep_hours=bajo + stress_level=alto,burnout_cat=alto,0.03687381958809245,0.7142857142857143,2.0801840903988627,2
+ai_dependency_score=medio + college_tier=tier_3 + stress_level=alto,burnout_cat=alto,0.0314776508678838,0.7142857142857143,2.0801840903988627,3
+daily_study_hours=medio + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.05926791977695836,0.71397616468039,2.0792826021690036,3
+ai_dependency_score=medio + placement_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.046317114848457595,0.7132963988919667,2.077302948999418,3
+ai_replaces_own_thinking_score=medio + interview_anxiety_score=alto + seeks_career_counseling=si,burnout_cat=alto,0.0729382138681536,0.7132805628847845,2.0772568304651435,3
+ai_dependency_score=medio + fear_of_job_loss_to_ai=alto + stress_level=alto,burnout_cat=alto,0.04712654015648889,0.7129251700680272,2.076221834988579,3
+degree_type=b.tech/b.e. + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.04910513535389873,0.7127937336814621,2.075839058356254,3
+daily_ai_tool_usage_hrs=alto + fear_of_job_loss_to_ai=alto + seeks_career_counseling=si,burnout_cat=alto,0.06565338609587193,0.7121951219512195,2.0740957467196464,3
+motivation_score=bajo + seeks_career_counseling=si + sleep_hours=medio,burnout_cat=alto,0.07932368018706719,0.711864406779661,2.073132618905985,3
+career_clarity_score=medio + stress_level=alto,burnout_cat=alto,0.06151632341037863,0.7117585848074922,2.0728244380498966,2
+fear_of_job_loss_to_ai=alto + seeks_career_counseling=si + sleep_hours=bajo,burnout_cat=alto,0.03102797014119975,0.711340206185567,2.071606011675568,3
+internship_experience=2 + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.03453547980933537,0.7111111111111111,2.0709388277748677,3
+degree_type=b.sc/b.a/b.com + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.03687381958809245,0.7105719237435009,2.069368575197482,3
+sleep_hours=medio + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.07015019336271247,0.7103825136612022,2.0688169642218197,3
+daily_ai_tool_usage_hrs=medio + fear_of_job_loss_to_ai=alto + stress_level=alto,burnout_cat=alto,0.04577749797643673,0.7099023709902371,2.067418665018451,3
+ai_replaces_own_thinking_score=medio + daily_ai_tool_usage_hrs=alto + seeks_career_counseling=si,burnout_cat=alto,0.058728302904937496,0.7097826086956521,2.0670698863506956,3
+college_tier=tier_2 + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.04020145696555446,0.7095238095238096,2.06631619646287,3
+career_clarity_score=medio + daily_study_hours=medio + stress_level=alto,burnout_cat=alto,0.03993164852954403,0.7092651757188498,2.065562988166027,3
+ai_dependency_score=alto + daily_study_hours=bajo + motivation_score=bajo,burnout_cat=alto,0.05234283658602392,0.7088915956151035,2.0644750266224032,3
+degree_type=b.tech/b.e. + stress_level=alto,burnout_cat=alto,0.05486104865545463,0.7084785133565622,2.063272024623262,2
+ai_dependency_score=alto + degree_type=b.tech/b.e. + motivation_score=bajo,burnout_cat=alto,0.041910243726953865,0.7082066869300913,2.0624803960124893,3
+degree_type=b.tech/b.e. + sleep_hours=medio + stress_level=alto,burnout_cat=alto,0.037053691878766074,0.7079037800687286,2.0615982531650583,3
+ai_dependency_score=alto + seeks_career_counseling=si + social_media_hrs_per_day=medio,burnout_cat=alto,0.0314776508678838,0.7070707070707071,2.059172129889783,3
+ai_dependency_score=alto + motivation_score=bajo + sleep_hours=medio,burnout_cat=alto,0.06520370536918788,0.7066276803118908,2.0578819217883484,3
+ai_dependency_score=alto + daily_ai_tool_usage_hrs=alto + motivation_score=bajo,burnout_cat=alto,0.06970051263602842,0.7064721969006381,2.0574291140225758,3
+ai_dependency_score=alto + motivation_score=bajo,burnout_cat=alto,0.09587193092904038,0.7064280980781975,2.057300686886191,2
+daily_ai_tool_usage_hrs=alto + fear_of_job_loss_to_ai=alto + motivation_score=bajo,burnout_cat=alto,0.0811224030938034,0.706342991386061,2.057052834264435,3
+daily_ai_tool_usage_hrs=alto + degree_type=b.tech/b.e. + seeks_career_counseling=si,burnout_cat=alto,0.03426567137332494,0.7055555555555555,2.0547596181828762,3
+ai_dependency_score=alto + ai_replaces_own_thinking_score=medio + motivation_score=bajo,burnout_cat=alto,0.08076265851245616,0.7054202670856246,2.0543656232910057,3
+sleep_hours=medio + stress_level=alto,burnout_cat=alto,0.0811224030938034,0.7052384675527756,2.0538361761967816,2
+career_clarity_score=medio + sleep_hours=medio + stress_level=alto,burnout_cat=alto,0.04065113769223851,0.7051482059282371,2.0535733110833077,3
+fear_of_job_loss_to_ai=alto + seeks_career_counseling=si + uses_ai_for_assignments=frequently,burnout_cat=alto,0.03030848097850526,0.7050209205020921,2.053202623117538,3
+ai_dependency_score=medio + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.04811583775519381,0.7048748353096179,2.05277718538702,3
+ai_replaces_own_thinking_score=medio + motivation_score=bajo + placement_anxiety_score=alto,burnout_cat=alto,0.08705818868603292,0.7045123726346434,2.051721600661236,3
+placement_anxiety_score=alto + seeks_career_counseling=si + stream=cs/it,burnout_cat=alto,0.0720388524147855,0.704485488126649,2.0516433060451047,3
+ai_dependency_score=alto + motivation_score=bajo + stream=cs/it,burnout_cat=alto,0.06448421620649339,0.7043222003929273,2.051167770080921,3
+daily_ai_tool_usage_hrs=alto + daily_study_hours=bajo + seeks_career_counseling=si,burnout_cat=alto,0.03768324489612375,0.7042016806722688,2.050816785593231,3
+daily_ai_tool_usage_hrs=alto + seeks_career_counseling=si + stream=cs/it,burnout_cat=alto,0.058548430614263874,0.7037837837837838,2.049599762150836,3
+ai_dependency_score=medio + daily_ai_tool_usage_hrs=medio + stress_level=alto,burnout_cat=alto,0.0330965014839464,0.7036328871892925,2.049160312377617,3
+motivation_score=bajo + placement_anxiety_score=alto + stream=cs/it,burnout_cat=alto,0.07842431873369908,0.7032258064516129,2.0479747883539767,3
+motivation_score=bajo + seeks_career_counseling=si + social_media_hrs_per_day=medio,burnout_cat=alto,0.05027430524327727,0.7031446540880504,2.0477384517561634,3
+daily_ai_tool_usage_hrs=medio + interview_anxiety_score=alto + stress_level=alto,burnout_cat=alto,0.04451839194172138,0.703125,2.04768121398638,3
+college_tier=tier_2 + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.03660401115208202,0.7029360967184801,2.0471310789452017,3
+daily_ai_tool_usage_hrs=alto + resume_confidence_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.04919507149923554,0.7021822849807445,2.0449357848876106,3
+ai_replaces_own_thinking_score=medio + seeks_career_counseling=si + stream=cs/it,burnout_cat=alto,0.06322511017177804,0.7015968063872255,2.0432307203299005,3
+career_clarity_score=bajo + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.057559133015558955,0.7009857612267251,2.041451199339957,3
+daily_study_hours=bajo + motivation_score=bajo + seeks_career_counseling=si,burnout_cat=alto,0.06808166201996582,0.700925925925926,2.0412769435228837,3
+daily_study_hours=medio + stress_level=alto + weekly_job_application_count=alto,burnout_cat=alto,0.058728302904937496,0.7006437768240343,2.0404552526208586,3
+ai_dependency_score=alto + career_clarity_score=medio + motivation_score=bajo,burnout_cat=alto,0.045237881104415865,0.7005571030640668,2.040202836293703,3
