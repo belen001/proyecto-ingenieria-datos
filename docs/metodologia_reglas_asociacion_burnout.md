@@ -5,7 +5,7 @@
 El objetivo de esta etapa es utilizar **reglas de asociación** para identificar combinaciones de características estudiantiles que aparecen frecuentemente asociadas a niveles altos de burnout. A diferencia del análisis de correlación, que permite observar relaciones entre pares de variables, las reglas de asociación permiten estudiar patrones compuestos, por ejemplo:
 
 ```text
-sleep_hours=bajo + stress_level=alto -> burnout_cat=alto
+sleep_hours=bajo + stress_level=alto -> burnout_score=alto
 ```
 
 Esto permite responder preguntas como:
@@ -50,19 +50,19 @@ La pregunta que guía esta etapa es:
 De forma más específica, se busca comparar reglas como:
 
 ```text
-sleep_hours=bajo + stress_level=alto -> burnout_cat=alto
+sleep_hours=bajo + stress_level=alto -> burnout_score=alto
 ```
 
 frente a reglas como:
 
 ```text
-sleep_hours=bajo + fear_of_job_loss_to_ai=alto -> burnout_cat=alto
+sleep_hours=bajo + fear_of_job_loss_to_ai=alto -> burnout_score=alto
 ```
 
 o:
 
 ```text
-sleep_hours=bajo + motivation_score=alto -> burnout_cat=alto
+sleep_hours=bajo + motivation_score=alto -> burnout_score=alto
 ```
 
 La intención es determinar qué combinaciones presentan mejor soporte, confianza y lift, y cuáles entregan una interpretación más útil para el problema.
@@ -71,10 +71,10 @@ La intención es determinar qué combinaciones presentan mejor soporte, confianz
 
 ## 4. Variable objetivo del análisis
 
-Aunque las reglas de asociación no funcionan como un modelo supervisado tradicional, en este caso se creará `burnout_cat` a partir de `burnout_score` y se orientará el análisis hacia reglas cuyo consecuente sea:
+Aunque las reglas de asociación no funcionan como un modelo supervisado tradicional, en este caso se orientará el análisis hacia reglas cuyo consecuente sea:
 
 ```text
-burnout_cat=alto
+burnout_score=alto
 ```
 
 Para lograr esto, la variable `burnout_score` debe transformarse desde su escala numérica original a una variable categórica. Una discretización propuesta es:
@@ -85,7 +85,7 @@ Para lograr esto, la variable `burnout_score` debe transformarse desde su escala
 | 4 a 6 | burnout medio |
 | 7 a 10 | burnout alto |
 
-El foco del análisis estará en las reglas que tengan como resultado `burnout_cat=alto`, debido a que esta categoría representa el escenario de mayor interés para interpretar factores asociados al agotamiento estudiantil.
+El foco del análisis estará en las reglas que tengan como resultado `burnout_score=alto`, debido a que esta categoría representa el escenario de mayor interés para interpretar factores asociados al agotamiento estudiantil.
 
 ---
 
@@ -199,7 +199,7 @@ Ejemplo conceptual:
   "motivation_score=bajo",
   "ai_dependency_score=alto",
   "uses_ai_for_assignments=Frequently",
-  "burnout_cat=alto"
+  "burnout_score=alto"
 ]
 ```
 
@@ -212,13 +212,13 @@ Sobre estas transacciones se aplicará el algoritmo de reglas de asociación par
 El análisis se enfocará en reglas donde el consecuente sea únicamente:
 
 ```text
-burnout_cat=alto
+burnout_score=alto
 ```
 
 Esto permite que la interpretación sea directa. Por ejemplo:
 
 ```text
-stress_level=alto + motivation_score=bajo -> burnout_cat=alto
+stress_level=alto + motivation_score=bajo -> burnout_score=alto
 ```
 
 No se priorizarán reglas cuyo consecuente sea otra variable, como:
@@ -244,7 +244,7 @@ Una regla con soporte demasiado bajo puede ser poco confiable, aunque tenga un l
 Ejemplo:
 
 ```text
-sleep_hours=bajo + stress_level=alto -> burnout_cat=alto
+sleep_hours=bajo + stress_level=alto -> burnout_score=alto
 ```
 
 Si esta regla aparece en muchos estudiantes, tendrá mayor soporte y será más relevante para el análisis general.
@@ -256,7 +256,7 @@ La confianza indica qué proporción de los estudiantes que cumplen el anteceden
 Ejemplo:
 
 ```text
-stress_level=alto -> burnout_cat=alto
+stress_level=alto -> burnout_score=alto
 ```
 
 Una confianza de 0.70 significa que el 70% de los estudiantes con estrés alto tienen burnout alto.
@@ -284,7 +284,7 @@ El lift será una métrica clave, porque permite saber si una combinación de va
 
 No todas las reglas generadas serán útiles. Para seleccionar reglas interpretables y relevantes, se propone aplicar los siguientes criterios:
 
-1. El consecuente debe ser `burnout_cat=alto`.
+1. El consecuente debe ser `burnout_score=alto`.
 2. El soporte debe superar un umbral mínimo definido en el notebook.
 3. La confianza debe ser suficientemente alta para que la regla tenga valor interpretativo.
 4. El lift debe ser mayor que 1.3 para considerar que existe una asociación relevante.
@@ -295,16 +295,16 @@ No todas las reglas generadas serán útiles. Para seleccionar reglas interpreta
 Por ejemplo, no basta con encontrar:
 
 ```text
-sleep_hours=bajo + stress_level=alto + motivation_score=bajo -> burnout_cat=alto
+sleep_hours=bajo + stress_level=alto + motivation_score=bajo -> burnout_score=alto
 ```
 
 También se debe comparar contra:
 
 ```text
-sleep_hours=bajo -> burnout_cat=alto
-stress_level=alto -> burnout_cat=alto
-motivation_score=bajo -> burnout_cat=alto
-sleep_hours=bajo + stress_level=alto -> burnout_cat=alto
+sleep_hours=bajo -> burnout_score=alto
+stress_level=alto -> burnout_score=alto
+motivation_score=bajo -> burnout_score=alto
+sleep_hours=bajo + stress_level=alto -> burnout_score=alto
 ```
 
 Esto permite saber si la combinación aporta más información que cada variable por separado.
@@ -320,7 +320,7 @@ El análisis debe distinguir entre reglas simples y reglas compuestas.
 Son reglas con una sola condición en el antecedente:
 
 ```text
-stress_level=alto -> burnout_cat=alto
+stress_level=alto -> burnout_score=alto
 ```
 
 Estas reglas sirven para identificar variables individuales relevantes.
@@ -330,7 +330,7 @@ Estas reglas sirven para identificar variables individuales relevantes.
 Son reglas con dos o más condiciones en el antecedente:
 
 ```text
-sleep_hours=bajo + ai_dependency_score=alto -> burnout_cat=alto
+sleep_hours=bajo + ai_dependency_score=alto -> burnout_score=alto
 ```
 
 Estas reglas permiten observar interacciones entre variables. Son especialmente importantes para este análisis, porque la hipótesis es que el burnout alto puede estar asociado a combinaciones de factores, no solo a variables aisladas.
@@ -376,7 +376,7 @@ El análisis numérico posterior en notebook debería seguir este flujo:
 7. Aplicar one-hot encoding sobre las transacciones.
 8. Ejecutar FP-Growth para obtener itemsets frecuentes.
 9. Generar reglas de asociación.
-10. Filtrar reglas cuyo consecuente sea `burnout_cat=alto`.
+10. Filtrar reglas cuyo consecuente sea `burnout_score=alto`.
 11. Ordenar reglas por lift, confidence y support.
 12. Comparar reglas simples contra reglas compuestas.
 13. Interpretar las reglas más relevantes.
@@ -390,23 +390,23 @@ El análisis numérico posterior en notebook debería seguir este flujo:
 El análisis podría producir reglas similares a las siguientes:
 
 ```text
-stress_level=alto + motivation_score=bajo -> burnout_cat=alto
+stress_level=alto + motivation_score=bajo -> burnout_score=alto
 ```
 
 ```text
-sleep_hours=bajo + ai_dependency_score=alto -> burnout_cat=alto
+sleep_hours=bajo + ai_dependency_score=alto -> burnout_score=alto
 ```
 
 ```text
-placement_anxiety_score=alto + fear_of_job_loss_to_ai=alto -> burnout_cat=alto
+placement_anxiety_score=alto + fear_of_job_loss_to_ai=alto -> burnout_score=alto
 ```
 
 ```text
-daily_ai_tool_usage_hrs=alto + ai_replaces_own_thinking_score=alto -> burnout_cat=alto
+daily_ai_tool_usage_hrs=alto + ai_replaces_own_thinking_score=alto -> burnout_score=alto
 ```
 
 ```text
-sleep_hours=bajo + stress_level=alto + motivation_score=bajo -> burnout_cat=alto
+sleep_hours=bajo + stress_level=alto + motivation_score=bajo -> burnout_score=alto
 ```
 
 Estas reglas deberán ser evaluadas numéricamente mediante soporte, confianza y lift antes de concluir que son relevantes.
@@ -420,7 +420,7 @@ La interpretación debe centrarse en identificar qué combinaciones aumentan la 
 Una posible forma de interpretar una regla sería:
 
 ```text
-stress_level=alto + motivation_score=bajo -> burnout_cat=alto
+stress_level=alto + motivation_score=bajo -> burnout_score=alto
 ```
 
 Si esta regla tiene confianza alta y lift mayor que 1.3, se puede interpretar que los estudiantes con estrés alto y baja motivación presentan una asociación mayor con burnout alto que la esperada por azar o por la frecuencia base del burnout alto en el dataset.
@@ -464,10 +464,189 @@ El análisis será considerado útil si logra:
 
 ---
 
-## 18. Conclusión metodológica
+---
+
+## 18. Estrategia para manejar una gran cantidad de reglas relevantes
+
+En reglas de asociación es común que el algoritmo genere una gran cantidad de reglas aparentemente relevantes, especialmente cuando el dataset contiene muchas variables categóricas y múltiples combinaciones posibles. Por esta razón, no basta con generar reglas y ordenarlas por lift; se requiere una etapa adicional de **priorización, reducción de redundancia e interpretación**.
+
+El objetivo de esta etapa no es eliminar información útil, sino pasar desde un conjunto amplio de reglas exploratorias hacia un subconjunto reducido de reglas defendibles para el análisis final.
+
+### 18.1 Problema de generar demasiadas reglas
+
+Una regla puede cumplir los filtros mínimos de soporte, confianza y lift, pero aun así no ser útil para la conclusión. Esto ocurre cuando:
+
+- Es muy parecida a otra regla más simple.
+- Tiene demasiadas condiciones en el antecedente.
+- Presenta buen lift, pero bajo soporte.
+- Repite una misma combinación conceptual con pequeñas variaciones.
+- Incluye categorías demasiado frecuentes que aumentan el soporte, pero aportan poca capacidad interpretativa.
+
+Por ejemplo, las siguientes reglas pueden ser redundantes:
+
+```text
+stress_level=alto + motivation_score=bajo -> burnout_score=alto
+```
+
+```text
+stress_level=alto + motivation_score=bajo + sleep_hours=medio -> burnout_score=alto
+```
+
+Si la segunda regla no mejora claramente el lift o la confianza respecto de la primera, no necesariamente aporta una interpretación nueva.
+
+### 18.2 Diferenciar reglas exploratorias y reglas finales
+
+Se propone trabajar con dos niveles de reglas:
+
+| Nivel | Propósito | Criterio |
+|---|---|---|
+| Reglas exploratorias | Revisar patrones amplios encontrados por el algoritmo | Filtros moderados |
+| Reglas priorizadas | Sustentar conclusiones finales | Filtros más estrictos e interpretabilidad |
+
+Las reglas exploratorias permiten observar el comportamiento general del dataset. Las reglas priorizadas permiten comunicar resultados claros y evitar una conclusión saturada.
+
+### 18.3 Filtros propuestos para reglas exploratorias
+
+Como primera etapa, se pueden conservar reglas que cumplan:
+
+| Métrica | Umbral exploratorio sugerido |
+|---|---|
+| `support` | mayor o igual a 0.03 |
+| `confidence` | mayor o igual a 0.50 |
+| `lift` | mayor a 1.30 |
+| Consecuente | `burnout_score=alto` |
+
+Este filtro permite identificar reglas que tienen una asociación positiva con burnout alto sin ser excesivamente restrictivo.
+
+### 18.4 Filtros propuestos para reglas priorizadas
+
+Para la conclusión final, se recomienda aplicar criterios más exigentes:
+
+| Métrica | Umbral priorizado sugerido |
+|---|---|
+| `support` | mayor o igual a 0.03 |
+| `confidence` | mayor o igual a 0.70 |
+| `lift` | mayor o igual a 2.00 |
+| Número de antecedentes | entre 2 y 3 condiciones |
+| Consecuente | `burnout_score=alto` |
+
+La justificación de estos criterios es la siguiente:
+
+- `support >= 0.03`: evita seleccionar reglas que aparecen en muy pocos casos.
+- `confidence >= 0.70`: exige que la mayoría de los casos que cumplen el antecedente presenten burnout alto.
+- `lift >= 2.00`: prioriza reglas donde la presencia de burnout alto es al menos el doble de la frecuencia base esperada.
+- 2 a 3 antecedentes: mantiene las reglas interpretables y evita combinaciones demasiado específicas.
+
+Una regla con muchos antecedentes puede tener métricas altas, pero ser difícil de explicar y poco útil para una presentación.
+
+### 18.5 Reducción de reglas redundantes
+
+Además de aplicar filtros más estrictos, se debe reducir la redundancia entre reglas. Para esto, se propone conservar una regla más compleja solo si mejora de forma clara a una regla más simple.
+
+Criterio recomendado:
+
+```text
+Una regla con más antecedentes se conserva solo si mejora el lift o la confianza respecto de una regla similar más simple.
+```
+
+Ejemplo:
+
+```text
+Regla A:
+stress_level=alto + motivation_score=bajo -> burnout_score=alto
+
+Regla B:
+stress_level=alto + motivation_score=bajo + ai_dependency_score=alto -> burnout_score=alto
+```
+
+La regla B debería conservarse solo si su lift o confidence mejora de manera relevante respecto de la regla A. Si ambas entregan una asociación muy parecida, la regla A es preferible por ser más simple.
+
+### 18.6 Selección de la mejor regla por grupo de variables
+
+Otra forma de reducir reglas repetidas es agruparlas por las variables que aparecen en el antecedente, ignorando temporalmente el valor específico de cada categoría.
+
+Por ejemplo, todas estas reglas pertenecen al mismo grupo conceptual:
+
+```text
+stress_level + motivation_score + ai_dependency_score
+```
+
+Luego, dentro de cada grupo, se conserva la regla con mejor combinación de lift, confidence y support.
+
+Esto evita terminar con muchas reglas que dicen esencialmente lo mismo.
+
+### 18.7 Ranking balanceado de reglas
+
+No conviene ordenar las reglas solo por lift, porque una regla con lift muy alto puede tener soporte bajo. Tampoco conviene ordenar solo por confidence, porque podría ignorar el aumento real respecto de la probabilidad base.
+
+Se propone crear un ranking compuesto que combine las tres métricas:
+
+```text
+score = lift * confidence * sqrt(support)
+```
+
+Este puntaje favorece reglas que cumplen simultáneamente tres condiciones:
+
+- alta asociación respecto de la probabilidad base;
+- alta proporción de burnout alto cuando aparece el antecedente;
+- frecuencia suficiente en el dataset.
+
+El ranking compuesto no reemplaza la interpretación, pero ayuda a ordenar las reglas candidatas para la conclusión final.
+
+### 18.8 Clasificación de reglas por dimensión analítica
+
+Para que la interpretación sea más clara, las reglas priorizadas pueden clasificarse según las variables que contienen:
+
+| Dimensión | Variables asociadas |
+|---|---|
+| Subjetiva o emocional | `stress_level`, `motivation_score`, `placement_anxiety_score`, `interview_anxiety_score`, `career_clarity_score`, `resume_confidence_score` |
+| Inteligencia artificial | `daily_ai_tool_usage_hrs`, `uses_ai_for_assignments`, `ai_dependency_score`, `ai_replaces_own_thinking_score`, `fear_of_job_loss_to_ai` |
+| Conductual o contextual | `sleep_hours`, `daily_study_hours`, `social_media_hrs_per_day`, `weekly_job_application_count`, `internship_experience`, `seeks_career_counseling`, `college_tier`, `stream`, `degree_type` |
+
+Esta clasificación permite responder preguntas más útiles que simplemente listar reglas:
+
+- ¿Las reglas más fuertes son principalmente subjetivas?
+- ¿Las variables de IA aparecen solas o combinadas con estrés y motivación?
+- ¿El sueño bajo es relevante por sí solo o cuando aparece junto a otros factores?
+- ¿Las variables contextuales agregan información o solo acompañan patrones ya explicados por estrés y motivación?
+
+### 18.9 Selección final de reglas para la conclusión
+
+Para el informe o presentación, no se deben mostrar todas las reglas relevantes. Se propone seleccionar entre 5 y 10 reglas finales, distribuidas de la siguiente manera:
+
+| Tipo de regla | Cantidad sugerida |
+|---|---:|
+| Reglas subjetivas fuertes | 2 a 3 |
+| Reglas que incluyan variables de IA | 2 a 3 |
+| Reglas conductuales o contextuales | 1 a 2 |
+| Reglas comparativas con sueño bajo | 1 a 2 |
+
+Este criterio permite construir una conclusión equilibrada, donde no solo se reporten las reglas con mayor lift, sino también aquellas que permiten responder la pregunta del proyecto.
+
+### 18.10 Criterio metodológico final para el notebook
+
+El notebook debe seguir esta lógica:
+
+1. Generar reglas de asociación con FP-Growth.
+2. Filtrar reglas cuyo consecuente sea `burnout_score=alto`.
+3. Aplicar filtros exploratorios para obtener reglas relevantes.
+4. Aplicar filtros priorizados para reducir el conjunto.
+5. Limitar antecedentes a dos o tres condiciones.
+6. Eliminar o reducir reglas redundantes.
+7. Seleccionar la mejor regla por grupo de variables.
+8. Ordenar reglas mediante un ranking balanceado.
+9. Clasificar reglas por dimensión: subjetiva, IA, conductual o contextual.
+10. Elegir un conjunto final de reglas para interpretar.
+11. Comparar explícitamente reglas con `sleep_hours=bajo`.
+12. Redactar una conclusión basada en reglas priorizadas, no en todas las reglas generadas.
+
+La idea central es que el análisis no concluya a partir de cientos o miles de reglas, sino a partir de un subconjunto pequeño, interpretable y metodológicamente justificado.
+
+
+## 19. Conclusión metodológica
 
 El análisis de reglas de asociación se plantea como una forma de complementar el análisis exploratorio previo. Mientras la correlación permite observar relaciones individuales entre variables, las reglas de asociación permiten estudiar combinaciones de factores que aparecen frecuentemente junto a burnout alto.
 
-La propuesta es transformar el dataset en transacciones categóricas, aplicar FP-Growth, generar reglas de asociación y filtrar aquellas cuyo consecuente sea `burnout_cat=alto`. Luego, las reglas serán evaluadas mediante support, confidence y lift, priorizando aquellas que tengan buena frecuencia, alta confianza, lift mayor a 1.3 e interpretación coherente con el problema.
+La propuesta es transformar el dataset en transacciones categóricas, aplicar FP-Growth, generar reglas de asociación y filtrar aquellas cuyo consecuente sea `burnout_score=alto`. Luego, las reglas serán evaluadas mediante support, confidence y lift. Como el algoritmo puede generar una gran cantidad de reglas, se añadirá una etapa posterior de priorización: primero se explorarán reglas con lift mayor a 1.3 y luego se seleccionará un subconjunto más exigente, con alta confianza, lift fuerte o muy fuerte, pocos antecedentes y baja redundancia. De esta manera, las conclusiones se basarán en reglas interpretables y no en un listado excesivo de patrones repetidos.
 
 Con esto, el análisis permitirá pasar desde una lectura simple de variables individuales hacia una interpretación más completa de patrones asociados al burnout estudiantil.
