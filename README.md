@@ -53,9 +53,9 @@ Artefactos generados:
 
 ## 4. Reglas de asociación
 
-El notebook `notebooks/04_reglas_asociacion.ipynb` transforma cada estudiante
+El notebook `notebooks/05_reglas_asociacion.ipynb` transforma cada estudiante
 en una transacción de atributos discretizados y aplica FP-Growth. El análisis
-prioriza reglas cuyo consecuente es `burnout_cat=alto` y evalúa soporte,
+prioriza reglas cuyo consecuente es `burnout_score=alto` y evalúa soporte,
 confianza, lift, leverage y conviction.
 
 Artefactos secundarios:
