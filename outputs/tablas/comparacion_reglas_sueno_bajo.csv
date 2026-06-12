@@ -1,0 +1,6 @@
+antecedente,disponible,support,confidence,lift,casos_antecedente,casos_regla
+sleep_hours=bajo + stress_level=alto,True,0.03687381958809245,0.7142857142857143,2.0801840903988627,574,410
+ai_dependency_score=alto + sleep_hours=bajo,True,0.02779026890907456,0.6358024691358025,1.8516206533056543,486,309
+placement_anxiety_score=alto + sleep_hours=bajo,True,0.047486284737836136,0.5757906215921482,1.6768506866116017,917,528
+fear_of_job_loss_to_ai=alto + sleep_hours=bajo,True,0.055220793236801874,0.5311418685121108,1.5468220104730643,1156,614
+motivation_score=alto + sleep_hours=bajo,True,0.002788020505441137,0.1409090909090909,0.41036358874232104,220,31

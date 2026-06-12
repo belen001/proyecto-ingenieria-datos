@@ -1,0 +1,4 @@
+algoritmo,itemsets_frecuentes,tiempo_segundos,reglas_generales,reglas_hacia_burnout_alto
+Apriori,34621,3.521037676007836,27594,686
+FP-Growth,34621,75.75684822100447,27594,686
+Eclat,34621,3.481774455998675,27594,686
