@@ -51,6 +51,21 @@ Artefactos generados:
 - `outputs/graficos/resumen_outliers.png`
 - `outputs/graficos/panel_distribuciones_asimetricas.png`
 
+## 4. Reglas de asociación
+
+El notebook `notebooks/04_reglas_asociacion.ipynb` transforma cada estudiante
+en una transacción de atributos discretizados y aplica FP-Growth. El análisis
+prioriza reglas cuyo consecuente es `burnout_cat=alto` y evalúa soporte,
+confianza, lift, leverage y conviction.
+
+Artefactos secundarios:
+
+- `outputs/tablas/itemsets_frecuentes_reglas_asociacion.csv`
+- `outputs/tablas/reglas_burnout_alto.csv`
+- `outputs/tablas/reglas_burnout_alto_relevantes.csv`
+- `outputs/tablas/frecuencia_variables_reglas_asociacion.csv`
+- `outputs/tablas/comparacion_reglas_sueno_bajo.csv`
+
 ### Estructura de carpetas
 
 ```text
