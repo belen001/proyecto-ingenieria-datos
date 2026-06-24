@@ -1,9 +1,10 @@
-pandas
-numpy
-matplotlib
-seaborn
-openpyxl
-ipykernel
-nbformat
-nbconvert
-mlxtend
+# Python >= 3.10
+pandas>=1.5.0
+numpy>=1.23.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+openpyxl>=3.0.10
+ipykernel>=6.0.0
+nbformat>=5.7.0
+nbconvert>=7.0.0
+mlxtend>=0.22.0
