@@ -85,3 +85,13 @@ EDA_Proyecto/
 └── utils/
     └── eda_helpers.py                        
 ```
+
+## Fuente y licencia del dataset
+
+- **Nombre:** AI Dependency and Career Anxiety Among Students
+- **Naturaleza:** dataset **sintético** (15 000 registros, 30 variables) generado mediante *latent trait modeling* con ruido controlado.
+- **Fuente:** _PENDIENTE_CONFIRMAR_ — pegar aquí el enlace exacto de Kaggle (u origen real) desde donde se descargó el dataset.
+- **Licencia:** _PENDIENTE_CONFIRMAR_ — indicar la licencia declarada en la fuente (p. ej. CC0, CC-BY-4.0) y sus condiciones de uso.
+
+> Estos dos campos también están en `data/raw/dataset_metadata.json` (`source_url`, `license`).
+> Una vez confirmados, reemplazar los marcadores aquí, en el JSON y reservar la cita para el bloque "Referencias" del póster.

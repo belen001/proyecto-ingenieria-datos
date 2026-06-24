@@ -7,5 +7,7 @@
     "num_columns": 30,
     "target_variable": "overall_career_readiness_score",
     "missing_data_injected": true,
-    "generation_strategy": "Latent trait modeling with controlled noise and Z-score normalized targets"
+    "generation_strategy": "Latent trait modeling with controlled noise and Z-score normalized targets",
+    "source_url": "https://www.kaggle.com/datasets/sridipbasu/ai-depndency-career-anxiety-and-student-burnout",
+    "license": "MIT License"
 }
