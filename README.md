@@ -1,6 +1,7 @@
 # Presentaciones recuperativas
-Belén Bravo: https://youtu.be/1NLfMcxS_AY
-Andres Alvarez: https://drive.google.com/file/d/1vB1djAGyUMVD8tsvrwJa-gLkZ9Ds9cCy/view?usp=sharing
+- Belén Bravo: https://youtu.be/1NLfMcxS_AY
+- Andres Alvarez: https://drive.google.com/file/d/1vB1djAGyUMVD8tsvrwJa-gLkZ9Ds9cCy/view?usp=sharing
+- 
 # Análisis de Burnout en Estudiantes Universitarios
 
 **Integrantes:**
